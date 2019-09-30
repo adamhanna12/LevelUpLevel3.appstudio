@@ -13,5 +13,4 @@ const carPay = (value * interest) / term
 return carPay
   }
 alert("The monthly payment on your car will be " + (carLoanPayment(value, interest, term) + "."))
-} 
 
