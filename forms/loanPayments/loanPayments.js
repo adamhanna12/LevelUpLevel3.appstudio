@@ -13,7 +13,8 @@ const carPay = (value * interest) / term
 return carPay
   }
 alert("The monthly payment on your car will be " + (carLoanPayment(value, interest, term) + "."))
-} else if (choice = "home") {
+} 
+else if (choice = "home") {
   function homeLoanPayment(value, interest, term) {
 const homePay = (value * interest) / term
 return homePay
@@ -21,4 +22,3 @@ return homePay
 alert("The monthly payment on your home will be " + (homeLoanPayment(value, interest, term) + "."))
 }
 } 
-
